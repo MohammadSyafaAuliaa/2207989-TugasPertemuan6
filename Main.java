@@ -46,10 +46,11 @@ public class Main {
         System.out.println("\nSegitiga 2:");
         System.out.println("Luas: " + luas2);
         System.out.println("Keliling: " + keliling2);
-        
+
+         // Membuat objek segitiga ke-3
          Segitiga segitiga3 = new Segitiga(20, 30, 60);
         
-        // Menghitung luas dan keliling segitiga ke-2
+        // Menghitung luas dan keliling segitiga ke-3
         double luas3 = segitiga3.hitungLuas();
         double keliling3 = segitiga3.hitungKeliling();
         
